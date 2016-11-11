@@ -1,0 +1,2 @@
+# MultiSelect
+Angular MultiSelect Component
