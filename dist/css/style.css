@@ -1,0 +1,31 @@
+.multiSelect label {
+  margin: 10px;
+}
+
+.multiSelect .btn {
+  margin: 10px;
+}
+
+.multiSelect .pool {
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px;
+  height: 150px;
+  overflow-y: scroll;
+}
+
+.multiSelect .pool ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.multiSelect .pool ul li {
+  width: 100%;
+  padding: 4px 8px 4px 4px;
+  border-bottom: 1px dotted #CFCFCF;
+}
+
+.multiSelect .pool ul li a:hover {
+  text-decoration: none;
+}

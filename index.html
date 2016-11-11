@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>Example of MultiSelect</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="dist/css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="dist/js/multi-select.js"></script>
+	<script src="demo/app.js"></script>
+	
+</head>
+<body>
+	<h3 class="text-center">Welcome to multi-select DEMO</h3>
+	<br/>
+	<div ng-controller="demoController as $ctrl">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<multi-select options="$ctrl.options"><multi-select>
+			</div>
+			<div class="col-md-6 col-md-offset-3">
+				Selected{{ $ctrl.options.selectedItems }}
+			</div>
+		</div>
+	</div>
+</body>
+</html>
