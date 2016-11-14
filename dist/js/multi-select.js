@@ -16,17 +16,16 @@ var multiSelect = {
 		options: '=',
 	},
 	controller: function (){
-		console.log(this.options);
 		this.change = function(from, to, index) {
 	        if (index >= 0) {
 	          to.push(from[index]);
 	          from.splice(index, 1);
 	        } else {
-	          	for (var i = 0; i < from.length; i++) {
-	            	to.push(from[i]);
-	        	}
-	        	from.length = 0;
-        	}
+	          for (var i = 0; i < from.length; i++) {
+	            to.push(from[i]);
+	         }
+	          from.length = 0;
+               }
         }
 	},
 	template: `
