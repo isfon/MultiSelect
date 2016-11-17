@@ -9,6 +9,9 @@ Angular Components makes it easy to quickly create a pair of searchable fields f
 AngularJS (angular.min.js) (tested with 1.5)
 Bootstrap (at least the CSS)
 
+###Demo
+- https://isfon.github.io/MultiSelect/
+
 ###Usage
 
 ####Include the CSS and JS files. Make sure Angular and your app.js files are included first.
