@@ -3,6 +3,7 @@ function demoController (){
 	    searchPlaceHolder: 'Typing to filter.',
 	    labelAll: 'All Countries',
 	    labelSelected: 'Selected Countries',
+			labelShow:'name',
 	    orderProperty: 'name',
 	    items: [
 			{"name": "Afghanistan", "code": "AF"},
@@ -25,11 +26,11 @@ function demoController (){
 			{"name": "Zambia", "code": "ZM"},
 			{"name": "Zimbabwe", "code": "ZW"}
 		],
-	    selectedItems: [] 
+	    selectedItems: []
 	};
 }
 
 
-angular
-	.module('app',['multiselectcomp'])
-	.controller('demoController', demoController);
+var app = angular
+		.module('app',['multiselectcomp'])
+		.controller('demoController', demoController);
