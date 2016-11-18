@@ -36,6 +36,7 @@ function demoController (){
 	    searchPlaceHolder: 'Typing to filter.',
 	    labelAll: 'All Countries',
 	    labelSelected: 'Selected Countries',
+	    labelShow: 'name',
 	    orderProperty: 'name',
 	    items: [
 			{"name": "Afghanistan", "code": "AF"},
