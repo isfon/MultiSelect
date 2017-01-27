@@ -1,6 +1,6 @@
 function demoController (){
 	this.options = {
-	    searchPlaceHolder: 'Typing to filter.',
+	    searchPlaceHolder: 'Typing Country to filter.',
 	    labelAll: 'All Countries',
 	    labelSelected: 'Selected Countries',
 			labelShow:'name',
